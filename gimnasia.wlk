@@ -47,7 +47,7 @@ class RemoCompeticion inherits Remo  {
   
 }
 
-class Personas {
+class Persona {
   var property peso =  0 
   var property rutina = null
   
@@ -73,7 +73,7 @@ class Personas {
 
 }
 
-class PersonaSedentaria inherits Personas {
+class PersonaSedentaria inherits Persona {
   var property tiempoElegido = 0
 
   
@@ -95,7 +95,7 @@ class PersonaSedentaria inherits Personas {
  
  }
 
- class PersonaAtleta inherits Personas {
+ class PersonaAtleta inherits Persona {
 
    override method kilosPorCaloria() {
     return 8000
